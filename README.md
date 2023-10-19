@@ -1,3 +1,6 @@
+# This is my personal copy for local deployment.  Get the actual code from the real source!!  
+
+
 # The Obico Server
 
 This repo is everything you need to run a self-hosted Obico Server.
