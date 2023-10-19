@@ -6,8 +6,8 @@ x-web-defaults: &web-defaults
     context: backend
     dockerfile: 'Dockerfile'
   volumes:
-    - ./backend:/app
-    - ./frontend:/frontend
+    - /nfs/obico/backend:/app
+    - nfs/obico/frontend:/frontend
   depends_on:
     - redis
   environment:
